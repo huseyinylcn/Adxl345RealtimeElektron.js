@@ -1,0 +1,25 @@
+.chart-container{
+    border: 2px solid black;
+    fill: red;
+}
+.izgara{
+    stroke: rgba(125, 69, 36, 0.444);
+    stroke-width: 0.7;
+}
+.rectt{
+    fill: none;
+    stroke: rgba(34, 13, 13, 0.744);
+    stroke-width: 1.1;
+
+}
+.grafik{
+    fill: none;
+    stroke: red;
+    stroke-width: 0.9;
+}
+.baslik{
+ 
+    font-family: sans-serif;
+    stroke-width: 2px;
+    stroke: black;
+}

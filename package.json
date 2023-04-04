@@ -1,0 +1,21 @@
+{
+  "name": "adxl345",
+  "version": "1.0.0",
+  "description": "Adxl345 Data",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@firebase/database": "^0.14.4",
+    "electron": "^4.2.12",
+    "firebase": "^8.10.0",
+    "firebase-admin": "^8.9.1",
+    "fs": "^0.0.1-security",
+    "nodemon": "^2.0.21",
+    "serialport": "^10.5.0",
+    "url": "^0.11.0"
+  }
+}

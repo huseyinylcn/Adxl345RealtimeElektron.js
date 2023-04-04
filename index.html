@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erken Uyarı</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="box">
+
+        <div id="serialport-senttings">
+            <div id="serialport-left">
+                <label >Bound Hızı: </label>
+            <input type="number" id="bound">
+            </div>
+            <div id="serialport-right">
+                <label> PORT: </label>
+                <select id="com">
+                    <option value="">Seçilmedi</option>
+                    <option value="COM1" >COM1</option>
+                    <option value="COM2">COM2</option>
+                    <option value="COM3">COM3</option>
+                    <option value="COM4">COM4</option>
+                    <option value="COM5">COM5</option>
+                    <option value="COM6">COM6</option>
+                    <option value="COM7">COM7</option>
+                    <option value="COM8">COM8</option>
+                </select>
+            </div>
+            
+        </div>
+        <div id="en-boy">
+            <div id="en">
+                <label >En</label>
+                <input type="text" id="enn">
+            </div>
+            <div id="boy">
+                <label >Boy</label>
+                <input type="text" id="boyy">
+            </div>
+        </div>
+<div id="middle">
+    <div id="station-code">
+        <label>Station Code</label>
+        <input type="text" id="stationcode">
+    </div>
+    <div id="close-program">
+       <button id="close">✔</button>
+    
+    </div>
+</div>
+<div id="datalar">
+    <div id="x"></div>
+    <div id="y"></div>
+    <div id="z"></div>
+
+</div>
+<div id="terminal">
+    <div id="data">
+
+
+
+    </div>
+    
+</div>
+    </div>
+    <div id="btnmi">
+
+        <button class="grbtn" id="xstart">X Grafik</button>
+        <button class="grbtn"  id="ystart">Y Grafik</button>
+        <button class="grbtn"  id="zstart">Z Grafik</button>
+
+    </div>
+  
+
+    <audio id="alarm-audio" src="./teknim-hirsiz-alarm-siren-sesi.mp3" style="display: none;"></audio>
+
+    
+<script src="index.js"></script>
+</body>
+</html>
